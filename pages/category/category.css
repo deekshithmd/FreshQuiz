@@ -1,0 +1,5 @@
+.quiz-category{
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+    padding:5px
+}
