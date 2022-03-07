@@ -1,6 +1,7 @@
 @import url('https://fresh-ui.netlify.app/style.css');
 @import url("pages/category/category.css");
 @import url("pages/rules/rules.css");
+@import url("pages/quiz/quiz.css");
 
 *{
     margin: 0;
