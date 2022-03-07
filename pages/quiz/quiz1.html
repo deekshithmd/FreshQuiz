@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../index.css">
-    <title>FreshQuiz | Rules</title>
+    <title>FreshQuiz | Quiz</title>
 </head>
-<body>
+<body class="light-theme">
     <nav class="navigation-bar">
         <section class="brand logo">
             <a href="#" class="link-style-none">
@@ -28,24 +28,42 @@
         </ul>
     </nav>
     <div class="main">
-        <div class="question">
-            <h4>First point on earth</h4>
-            <label for="option1" class="option">
-                <input type="radio" value="option1" name="option">
-                Earth
-            </label><br>
-            <label for="option2" class="option">
-                <input type="radio" value="option2" name="option">
-                Earth
-            </label><br>
-            <label for="option3" class="option">
-                <input type="radio" value="option3" name="option">
-                Earth
-            </label><br>
-            <label for="option4" class="option">
-                <input type="radio" value="option4" name="option">
-                Earth
-            </label>
+        <div class="question-container margin-t">
+            <section class="question-header margin-b">
+                <h4>Question: <span class="question-no">1</span></h4>
+                <h4><span class="current-question">1</span>/5</h4>
+            </section>
+            <p class="text-lg">First point on earth</p>
+            <div class="option-container">
+                <div class="option option-hover">
+                    <label for="option1" class="text-md">
+                        <input type="radio" value="option1" name="option">
+                        Earth
+                    </label>
+                </div>
+                <div class="option option-hover">
+                    <label for="option2" class="text-md">
+                        <input type="radio" value="option2" name="option">
+                        Earth
+                    </label>
+                </div>
+                <div class="option option-hover">
+                    <label for="option3" class="text-md">
+                        <input type="radio" value="option3" name="option">
+                        Earth
+                    </label>
+                </div>
+                <div class="option option-hover">
+                    <label for="option4" class="text-md">
+                        <input type="radio" value="option4" name="option">
+                        Earth
+                    </label>
+                </div>
+                <div class="button-container">
+                    <button class="btn btn-solid-primary" ><i class="fa-solid fa-arrow-left"></i></i></button>
+                    <button class="btn btn-solid-primary" ><i class="fa-solid fa-arrow-right"></i></button>
+                </div> 
+            </div>
         </div>
     </div>
 </body>

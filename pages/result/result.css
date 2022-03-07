@@ -1,0 +1,17 @@
+.result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.correct{
+    background-color: var(--success-text-color);
+}
+
+.incorrect{
+    background-color: var(--red-background);
+}
+
+.pass{
+    color: var(--success-text-color);
+}

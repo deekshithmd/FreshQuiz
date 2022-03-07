@@ -1,7 +1,31 @@
+.question-container{
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    padding: 10px;
+    min-width: 350px;
+}
+
+.question-header{
+    display: flex;
+    justify-content: space-between;
+}
+
 .option{
     padding: 10px;
     font-size: 10px;
-    border: 1px solid blue;
+    border: 1px solid var(--secondary-color);
     border-radius: 5px;
-    margin: 10px;
+    margin: 10px auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.option-hover:hover{
+    background-color: var(--secondary-color);
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-between;
 }
